@@ -41,7 +41,7 @@ class MusicAlbumDetailViewController: UIViewController {
         
         view.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|-20-[iTunes]-20-|", options: .init(rawValue: 0), metrics: nil, views: viewsDict))
         
-        view.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|-100-[Artwork(200)]-50-[Genre]-12-[ReleaseDate]-12-[Copyright]-10@200-[iTunes(44)]-|", options: .init(rawValue: 0), metrics: nil, views: viewsDict))
+        view.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|-100-[Artwork(200)]-50-[Genre]-12-[ReleaseDate]-12-[Copyright]-10@200-[iTunes(44)]-22-|", options: .init(rawValue: 0), metrics: nil, views: viewsDict))
     }
     
     @objc func navigateToiTunes() {
